@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!--<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>-->
+<!--</children>
+</GridPane>&ndash;&gt;-->
+
+<SplitPane dividerPositions="0.5, 0.5" orientation="VERTICAL" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <items>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="39.0" prefWidth="725.0">
+         <children>
+            <Button fx:id="addEvent" layoutX="5.0" layoutY="7.0" mnemonicParsing="false" onAction="#actionAdding" prefHeight="26.0" prefWidth="107.0" text="Add Event" />
+            <DatePicker fx:id="dateEvent" layoutX="130.0" layoutY="7.0" prefHeight="26.0" prefWidth="128.0" />
+            <TextField fx:id="yourEvent" layoutX="286.0" layoutY="7.0" prefHeight="26.0" prefWidth="424.0" promptText="Enter your event..................." />
+            <Separator layoutX="115.0" layoutY="1.0" orientation="VERTICAL" prefHeight="39.0" prefWidth="6.4" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="115.0" AnchorPane.topAnchor="1.0" />
+            <Separator layoutX="273.0" layoutY="1.0" orientation="VERTICAL" prefHeight="39.0" prefWidth="6.4" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="273.0" AnchorPane.topAnchor="1.0" />
+         </children>
+      </AnchorPane>
+      <ListView fx:id="collectData" prefHeight="200.0" prefWidth="200.0">
+
+      </ListView>
+
+   </items>
+</SplitPane>
